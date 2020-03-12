@@ -52,11 +52,12 @@ def total_gross(source)
   total = 0
   i=0
   
-  while i < .length do
-    total
+  while i < source.length do
+    total=directors_totals[list_of_directors[i]]
+    i+=1
+  end
   
-  
-  
+  return total
   
 end
 
